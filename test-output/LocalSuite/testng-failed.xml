@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LocalSuite]">
+  <test name="MobileAppAutomationTestSuite.AppiumDriverBase(failed)">
+    <classes>
+      <class name="MobileAppAutomationTestSuite.AppiumDriverBase">
+        <methods>
+          <include name="OpenItemDescriptionPage" invocation-numbers="0 1"/>
+          <include name="OpenItemDescriptionPage"/>
+          <include name="OpenItemDescriptionPage"/>
+          <include name="TearDownAppiumDriver"/>
+          <include name="PlaceOrder"/>
+          <include name="PlaceOrder"/>
+          <include name="PlaceOrder"/>
+          <include name="OpenCart"/>
+          <include name="OpenCart"/>
+          <include name="OpenCart"/>
+          <include name="SearchItem"/>
+          <include name="SearchItem" invocation-numbers="0 1 2"/>
+          <include name="SearchItem" invocation-numbers="0 1 2"/>
+          <include name="SetupAppiumDriver"/>
+          <include name="AddItemToCart"/>
+          <include name="AddItemToCart"/>
+          <include name="AddItemToCart"/>
+        </methods>
+      </class> <!-- MobileAppAutomationTestSuite.AppiumDriverBase -->
+    </classes>
+  </test> <!-- MobileAppAutomationTestSuite.AppiumDriverBase(failed) -->
+</suite> <!-- Failed suite [LocalSuite] -->
